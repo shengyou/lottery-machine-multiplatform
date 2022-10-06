@@ -1,6 +1,5 @@
 package io.kraftsman.desktop.ui.screens
 
-import androidx.compose.desktop.ui.tooling.preview.Preview
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.Button
@@ -30,10 +29,4 @@ fun LotteryScreen() {
             )
         }
     }
-}
-
-@Preview
-@Composable
-fun LotteryScreenPreview() {
-    LotteryScreen()
 }

@@ -1,6 +1,5 @@
 package io.kraftsman.desktop.ui.components
 
-import androidx.compose.desktop.ui.tooling.preview.Preview
 import androidx.compose.foundation.layout.*
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
@@ -26,10 +25,4 @@ fun BallMatrix(lotteryNumber: List<Int>) {
             }
         }
     }
-}
-
-@Preview
-@Composable
-fun BallMatrixPreview() {
-    BallMatrix(listOf(1, 2, 3, 4, 5, 6))
 }
