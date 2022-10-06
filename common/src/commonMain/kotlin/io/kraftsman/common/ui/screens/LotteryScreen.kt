@@ -1,4 +1,4 @@
-package io.kraftsman.desktop.ui.screens
+package io.kraftsman.common.ui.screens
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.padding
@@ -8,8 +8,9 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import io.kraftsman.desktop.services.LotteryService
-import io.kraftsman.desktop.ui.components.BallMatrix
+import io.kraftsman.common.services.LotteryService
+import io.kraftsman.common.ui.components.BallMatrix
+import io.kraftsman.common.ui.components.Logo
 
 @Composable
 fun LotteryScreen() {
@@ -19,6 +20,7 @@ fun LotteryScreen() {
     Column(
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
+        Logo()
         BallMatrix(lotteryNumbers)
         Button(
             onClick = { lotteryNumbers = lotteryService.draw() },

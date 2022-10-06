@@ -1,4 +1,4 @@
-package io.kraftsman.desktop.services
+package io.kraftsman.common.services
 
 class LotteryService {
     fun draw(start: Int = 1, end: Int = 49, count: Int = 6): List<Int> =

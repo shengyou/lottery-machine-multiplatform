@@ -8,7 +8,7 @@ import androidx.compose.ui.window.Window
 import androidx.compose.ui.window.WindowPosition
 import androidx.compose.ui.window.WindowState
 import androidx.compose.ui.window.application
-import io.kraftsman.desktop.ui.screens.LotteryScreen
+import io.kraftsman.common.ui.screens.LotteryScreen
 
 fun main() = application {
     Window(

@@ -1,4 +1,4 @@
-package io.kraftsman.desktop.ui.components
+package io.kraftsman.common.ui.components
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
